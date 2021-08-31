@@ -1,0 +1,122 @@
+
+.picker-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #fbf9eb;
+  color: #123033;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+
+.input-group input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.input-group button {
+  float: center;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #f8cfa9;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-wrap {
+  position: relative;
+  text-align: center;
+}
+
+.button-label {
+  display: inline-block;
+  padding: 1em 2em;
+  margin: 0.5em;
+  cursor: pointer;
+  background-color: #fffef8;
+  color: #123033;
+  border: 2px solid #f8cfa9;
+  transition: 0.3s;
+  user-select: none;
+}
+
+.button-label:hover {
+  background-color: #f8cfa9;
+  color: #123033;
+}
+
+.radio-label:checked + .button-label {
+  background-color: #f8cfa9;
+  color: #123033;
+}
+
+.hidden {
+  display: none;
+}
+
+#id_continent {
+  height: 100px;
+  border: none;
+  overflow: hidden;
+}
+#id_continent::-moz-focus-inner {
+  border: 0;
+}
+#id_continent:focus {
+  outline: none;
+}
+
+#id_continent option {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #fffef8;
+  color: #123033;
+  border: 2px solid #f8cfa9;
+  transition: 0.3s;
+  padding: 15px;
+  margin: 15px;
+}
+
+#id_continent option:hover {
+  background-color: #f8cfa9;
+  color: #123033;
+}
+
+#id_continent option:checked {
+  background-color: #f8cfa9;
+  color: #123033;
+}
+
+#id_button {
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #fffef8;
+  color: #123033;
+  border: 2px solid #f8cfa9;
+  transition: 0.3s;
+  padding: 15px;
+  margin: 15px;
+}
+
+#id_button:focus {
+  outline: none;
+}
+
+#id_button:hover {
+  background-color: #f8cfa9;
+  color: #123033;
+}
+
+select{
+  background-color: #fbf9eb;
+}
+
+#country{
+padding: 6px;
+width: 160px;
+}

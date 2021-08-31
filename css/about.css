@@ -1,0 +1,65 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.about-column {
+  float: left;
+  width: 33%;
+  margin-bottom: 16px;
+  padding: 0 0px;
+}
+
+.about-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #f8cfa9;
+  color: #123033;
+}
+
+.about-team {
+  padding: 50px;
+  text-align: center;
+  background-color: #fbf9eb;
+  color: #123033;
+}
+
+.about-container {
+  padding: 0 16px;
+}
+
+.about-container::after,
+.about-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.about-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 6px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 90%;
+}
+
+.about-button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .about-column {
+    width: 100%;
+    display: block;
+  }
+}
